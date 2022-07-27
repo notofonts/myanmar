@@ -48,15 +48,15 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- tall_aa_anusvara.alt
-
-	- tall_aa_ai.alt
-
 	- _tall_aa.alt
 
-	- _tall_aa_asat.alt 
+	- _tall_aa_asat.alt
 
-	- And nbspace
+	- nbspace
+
+	- tall_aa_anusvara.alt 
+
+	- And tall_aa_ai.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -98,9 +98,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 8 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 i_gkn (U+1071), oe_kyh (U+1072) and u_kyh (U+1073) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -167,15 +165,15 @@ But instead we have got:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- tall_aa_anusvara.alt
-
-	- tall_aa_ai.alt
-
 	- _tall_aa.alt
 
-	- _tall_aa_asat.alt 
+	- _tall_aa_asat.alt
 
-	- And nbspace
+	- nbspace
+
+	- tall_aa_anusvara.alt 
+
+	- And tall_aa_ai.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -217,9 +215,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 8 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 i_gkn (U+1071), oe_kyh (U+1072) and u_kyh (U+1073) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -287,15 +283,15 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- tall_aa_anusvara.alt
-
-	- tall_aa_ai.alt
-
 	- _tall_aa.alt
 
-	- _tall_aa_asat.alt 
+	- _tall_aa_asat.alt
 
-	- And nbspace
+	- nbspace
+
+	- tall_aa_anusvara.alt 
+
+	- And tall_aa_ai.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -337,9 +333,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 8 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 i_gkn (U+1071), oe_kyh (U+1072) and u_kyh (U+1073) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -411,15 +405,15 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- tall_aa_anusvara.alt
-
-	- tall_aa_ai.alt
-
 	- _tall_aa.alt
 
-	- _tall_aa_asat.alt 
+	- _tall_aa_asat.alt
 
-	- And nbspace
+	- nbspace
+
+	- tall_aa_anusvara.alt 
+
+	- And tall_aa_ai.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -461,9 +455,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 8 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 i_gkn (U+1071), oe_kyh (U+1072) and u_kyh (U+1073) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -517,15 +509,15 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- tall_aa_anusvara.alt
-
-	- tall_aa_ai.alt
-
 	- _tall_aa.alt
 
-	- _tall_aa_asat.alt 
+	- _tall_aa_asat.alt
 
-	- And nbspace
+	- nbspace
+
+	- tall_aa_anusvara.alt 
+
+	- And tall_aa_ai.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -567,9 +559,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 8 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 i_gkn (U+1071), oe_kyh (U+1072) and u_kyh (U+1073) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -609,15 +599,15 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- tall_aa_anusvara.alt
-
-	- tall_aa_ai.alt
-
 	- _tall_aa.alt
 
-	- _tall_aa_asat.alt 
+	- _tall_aa_asat.alt
 
-	- And nbspace
+	- nbspace
+
+	- tall_aa_anusvara.alt 
+
+	- And tall_aa_ai.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -659,9 +649,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 8 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 i_gkn (U+1071), oe_kyh (U+1072) and u_kyh (U+1073) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -704,15 +692,15 @@ But instead we have got:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- tall_aa_anusvara.alt
-
-	- tall_aa_ai.alt
-
 	- _tall_aa.alt
 
-	- _tall_aa_asat.alt 
+	- _tall_aa_asat.alt
 
-	- And nbspace
+	- nbspace
+
+	- tall_aa_anusvara.alt 
+
+	- And tall_aa_ai.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -754,9 +742,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 8 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 i_gkn (U+1071), oe_kyh (U+1072) and u_kyh (U+1073) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -796,15 +782,15 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- tall_aa_anusvara.alt
-
-	- tall_aa_ai.alt
-
 	- _tall_aa.alt
 
-	- _tall_aa_asat.alt 
+	- _tall_aa_asat.alt
 
-	- And nbspace
+	- nbspace
+
+	- tall_aa_anusvara.alt 
+
+	- And tall_aa_ai.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -846,9 +832,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 8 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 i_gkn (U+1071), oe_kyh (U+1072) and u_kyh (U+1073) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -912,15 +896,15 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- tall_aa_anusvara.alt
-
-	- tall_aa_ai.alt
-
 	- _tall_aa.alt
 
-	- _tall_aa_asat.alt 
+	- _tall_aa_asat.alt
 
-	- And nbspace
+	- nbspace
+
+	- tall_aa_anusvara.alt 
+
+	- And tall_aa_ai.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -962,9 +946,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 8 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 i_gkn (U+1071), oe_kyh (U+1072) and u_kyh (U+1073) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -992,7 +974,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* exclamdown (U+00A1): L<<122.0,354.0>--<124.0,-186.0>> 
 
 	* And exclamdown (U+00A1): L<<96.0,-186.0>--<98.0,354.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSansMyanmarUI[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoSansMyanmarUI[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -1023,39 +1005,27 @@ But instead we have got:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- tall_aa_anusvara.alt
-
-	- tall_aa_ai.alt
+	- uni00A0.1
 
 	- _tall_aa.alt
 
-	- _tall_aa_asat.alt 
+	- _tall_aa_asat.alt
 
-	- And uni00A0.1
+	- tall_aa_anusvara.alt 
+
+	- And tall_aa_ai.alt
  [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
-
-
-* ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-	 _a_atn (U+109C) [code: spacing-mark-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), i_gkn (U+1071), oe_kyh (U+1072), tildecomb (U+0303), u_kyh (U+1073), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307) and 8 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
-	 U+109C and U+A9E6 [code: non-mark-chars]
+	 i_gkn (U+1071), oe_kyh (U+1072), u_kyh (U+1073) and uniFE00 (U+FE00) [code: mark-chars]
 </div></details><br></div></details>
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 10 | 34 | 77 | 1139 | 62 | 893 | 0 |
+| 10 | 34 | 75 | 1139 | 62 | 895 | 0 |
 | 0% | 2% | 3% | 51% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:

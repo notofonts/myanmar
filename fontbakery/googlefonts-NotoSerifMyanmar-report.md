@@ -14,16 +14,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* medial_ha_dot
-	* e_shn
-	* ba_shn.sub2
-	* tone2_wpk
-	* ba_shn.sub
-	* uu
-	* pa_khm
-	* ga
-	* ka_shn
-	* vocL_skt and 63 more.
+	* kha
+	* ka_shn.sub
+	* sha_shw_medial_wa
+	* one_m
+	* vocR_skt
+	* gha_tlg
+	* vocL_skt
+	* u_m
+	* nine_shn
+	* cha_shw and 63 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -42,21 +42,21 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ha_tlg
-
-	- great_nnya.clipped
-
-	- asatstem
+	- nbspace
 
 	- ttha.sub.alt
 
-	- nbspace
+	- asatstem
 
-	- _ai_khm
+	- medial_wa_ha_short
 
-	- medial_wa_ha_ovl_short 
+	- medial_wa_ha_ovl_short
 
-	- And medial_wa_ha_short
+	- great_nnya.clipped
+
+	- ha_tlg 
+
+	- And _ai_khm
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -98,9 +98,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 _vocLL_skt (U+1059), _vocL_skt (U+1058), acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308) and 7 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 _vocLL_skt (U+1059) and _vocL_skt (U+1058) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -172,16 +170,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* medial_ra_u_dot_tt.w2
-	* nna_tlg
-	* medial_ha_dot
-	* medial_ya_wa_ovl
-	* e_shn
-	* ttha.sub2
-	* nya_shn.sub2
-	* ra_atn_dot
-	* medial_ra_wa_ha.w2_2
-	* medial_ra_tt2_bt and 652 more.
+	* _aa_anusvara
+	* pha
+	* ra.sub
+	* asat
+	* dda.littletail
+	* ra_mark_ai_skt
+	* jha_shn.sub
+	* medial_ra_tt.w2_5
+	* bba_mon
+	* lla.notail and 652 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -193,21 +191,21 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ha_tlg
-
-	- great_nnya.clipped
-
-	- asatstem
+	- nbspace
 
 	- ttha.sub.alt
 
-	- nbspace
+	- asatstem
 
-	- _ai_khm
+	- medial_wa_ha_short
 
-	- medial_wa_ha_ovl_short 
+	- medial_wa_ha_ovl_short
 
-	- And medial_wa_ha_short
+	- great_nnya.clipped
+
+	- ha_tlg 
+
+	- And _ai_khm
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -249,9 +247,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 _vocLL_skt (U+1059), _vocL_skt (U+1058), acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308) and 7 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 _vocLL_skt (U+1059) and _vocL_skt (U+1058) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -303,16 +299,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* dda.littletail
+	* medial_ra_tt.w2_5
+	* lla.notail
+	* a_m
+	* medial_ra_u_tt.w2_2
 	* medial_ra_u_dot_tt.w2
-	* medial_ha_dot
-	* e_shn
-	* ra_atn_dot
-	* medial_ra_wa_ha.w2_2
-	* ba_shn.sub2
-	* medial_ra
-	* la_khm
-	* ha_shn_medial_wa
-	* dda_khm and 313 more.
+	* medial_ra_u_dot_tt.w2_5
+	* exclam_shn
+	* five_tlg
+	* medial_ra_wa_ovl_tt.w2_2 and 313 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -331,21 +327,21 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ha_tlg
-
-	- great_nnya.clipped
-
-	- asatstem
+	- nbspace
 
 	- ttha.sub.alt
 
-	- nbspace
+	- asatstem
 
-	- _ai_khm
+	- medial_wa_ha_short
 
-	- medial_wa_ha_ovl_short 
+	- medial_wa_ha_ovl_short
 
-	- And medial_wa_ha_short
+	- great_nnya.clipped
+
+	- ha_tlg 
+
+	- And _ai_khm
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -387,9 +383,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 _vocLL_skt (U+1059), _vocL_skt (U+1058), acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308) and 7 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 _vocLL_skt (U+1059) and _vocL_skt (U+1058) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -465,16 +459,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* medial_ra_u_dot_tt.w2
-	* nna_tlg
-	* medial_ha_dot
-	* medial_ya_wa_ovl
-	* e_shn
-	* ttha.sub2
-	* nya_shn.sub2
-	* ra_atn_dot
-	* medial_ra_wa_ha.w2_2
-	* medial_ra_tt2_bt and 541 more.
+	* _aa_anusvara
+	* pha
+	* ra.sub
+	* dda.littletail
+	* jha_shn.sub
+	* medial_ra_tt.w2_5
+	* bba_mon
+	* lla.notail
+	* a_m
+	* medial_ra_u_tt.w2_2 and 541 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -493,21 +487,21 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ha_tlg
-
-	- great_nnya.clipped
-
-	- asatstem
+	- nbspace
 
 	- ttha.sub.alt
 
-	- nbspace
+	- asatstem
 
-	- _ai_khm
+	- medial_wa_ha_short
 
-	- medial_wa_ha_ovl_short 
+	- medial_wa_ha_ovl_short
 
-	- And medial_wa_ha_short
+	- great_nnya.clipped
+
+	- ha_tlg 
+
+	- And _ai_khm
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -549,9 +543,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 _vocLL_skt (U+1059), _vocL_skt (U+1058), acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308) and 7 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 _vocLL_skt (U+1059) and _vocL_skt (U+1058) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -619,16 +611,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* medial_ra_u_dot_tt.w2
-	* nna_tlg
-	* medial_ha_dot
-	* medial_ya_wa_ovl
-	* e_shn
-	* ttha.sub2
-	* nya_shn.sub2
-	* ra_atn_dot
-	* medial_ra_wa_ha.w2_2
-	* medial_ra_tt2_bt and 691 more.
+	* _aa_anusvara
+	* pha
+	* ra.sub
+	* asat
+	* dda.littletail
+	* ra_mark_ai_skt
+	* jha_shn.sub
+	* medial_ra_tt.w2_5
+	* bba_mon
+	* lla.notail and 691 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -647,21 +639,21 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ha_tlg
-
-	- great_nnya.clipped
-
-	- asatstem
+	- nbspace
 
 	- ttha.sub.alt
 
-	- nbspace
+	- asatstem
 
-	- _ai_khm
+	- medial_wa_ha_short
 
-	- medial_wa_ha_ovl_short 
+	- medial_wa_ha_ovl_short
 
-	- And medial_wa_ha_short
+	- great_nnya.clipped
+
+	- ha_tlg 
+
+	- And _ai_khm
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -703,9 +695,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 _vocLL_skt (U+1059), _vocL_skt (U+1058), acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308) and 7 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 _vocLL_skt (U+1059) and _vocL_skt (U+1058) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -761,16 +751,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* medial_ra_u_dot_tt.w2
-	* nna_tlg
-	* medial_ha_dot
-	* medial_ya_wa_ovl
-	* e_shn
-	* ttha.sub2
-	* nya_shn.sub2
-	* ra_atn_dot
-	* medial_ra_wa_ha.w2_2
-	* medial_ra_tt2_bt and 692 more.
+	* _aa_anusvara
+	* pha
+	* ra.sub
+	* asat
+	* dda.littletail
+	* ra_mark_ai_skt
+	* jha_shn.sub
+	* medial_ra_tt.w2_5
+	* bba_mon
+	* lla.notail and 692 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -789,21 +779,21 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ha_tlg
-
-	- great_nnya.clipped
-
-	- asatstem
+	- nbspace
 
 	- ttha.sub.alt
 
-	- nbspace
+	- asatstem
 
-	- _ai_khm
+	- medial_wa_ha_short
 
-	- medial_wa_ha_ovl_short 
+	- medial_wa_ha_ovl_short
 
-	- And medial_wa_ha_short
+	- great_nnya.clipped
+
+	- ha_tlg 
+
+	- And _ai_khm
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -845,9 +835,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 _vocLL_skt (U+1059), _vocL_skt (U+1058), acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308) and 7 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 _vocLL_skt (U+1059) and _vocL_skt (U+1058) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -925,16 +913,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* medial_ha_dot
-	* e_shn
-	* ba_shn.sub2
-	* tone2_wpk
-	* ba_shn.sub
-	* uu
-	* pa_khm
-	* ga
-	* ka_shn
-	* vocL_skt and 56 more.
+	* kha
+	* ka_shn.sub
+	* sha_shw_medial_wa
+	* one_m
+	* vocR_skt
+	* gha_tlg
+	* vocL_skt
+	* u_m
+	* nine_shn
+	* cha_shw and 56 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -946,21 +934,21 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ha_tlg
-
-	- great_nnya.clipped
-
-	- asatstem
+	- nbspace
 
 	- ttha.sub.alt
 
-	- nbspace
+	- asatstem
 
-	- _ai_khm
+	- medial_wa_ha_short
 
-	- medial_wa_ha_ovl_short 
+	- medial_wa_ha_ovl_short
 
-	- And medial_wa_ha_short
+	- great_nnya.clipped
+
+	- ha_tlg 
+
+	- And _ai_khm
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1002,9 +990,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 _vocLL_skt (U+1059), _vocL_skt (U+1058), acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308) and 7 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 _vocLL_skt (U+1059) and _vocL_skt (U+1058) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -1080,16 +1066,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* medial_ra_u_dot_tt.w2
-	* nna_tlg
-	* medial_ha_dot
-	* medial_ya_wa_ovl
-	* e_shn
-	* ttha.sub2
-	* nya_shn.sub2
-	* ra_atn_dot
-	* medial_ra_wa_ha.w2_2
-	* medial_ra_tt2_bt and 653 more.
+	* _aa_anusvara
+	* pha
+	* ra.sub
+	* asat
+	* dda.littletail
+	* ra_mark_ai_skt
+	* jha_shn.sub
+	* medial_ra_tt.w2_5
+	* bba_mon
+	* lla.notail and 653 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1108,21 +1094,21 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ha_tlg
-
-	- great_nnya.clipped
-
-	- asatstem
+	- nbspace
 
 	- ttha.sub.alt
 
-	- nbspace
+	- asatstem
 
-	- _ai_khm
+	- medial_wa_ha_short
 
-	- medial_wa_ha_ovl_short 
+	- medial_wa_ha_ovl_short
 
-	- And medial_wa_ha_short
+	- great_nnya.clipped
+
+	- ha_tlg 
+
+	- And _ai_khm
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1164,9 +1150,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 _vocLL_skt (U+1059), _vocL_skt (U+1058), acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308) and 7 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 _vocLL_skt (U+1059) and _vocL_skt (U+1058) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -1242,16 +1226,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* medial_ha_dot
-	* e_shn
-	* ba_shn.sub2
-	* tone2_wpk
-	* ba_shn.sub
-	* uu
-	* pa_khm
-	* ga
-	* ka_shn
-	* vocL_skt and 63 more.
+	* kha
+	* ka_shn.sub
+	* sha_shw_medial_wa
+	* one_m
+	* vocR_skt
+	* gha_tlg
+	* vocL_skt
+	* u_m
+	* nine_shn
+	* cha_shw and 63 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1270,19 +1254,19 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ha_tlg
-
-	- great_nnya.clipped
+	- nbspace
 
 	- asatstem
 
-	- nbspace
+	- medial_wa_ha_short
 
-	- _ai_khm
+	- medial_wa_ha_ovl_short
 
-	- medial_wa_ha_ovl_short 
+	- great_nnya.clipped
 
-	- And medial_wa_ha_short
+	- ha_tlg 
+
+	- And _ai_khm
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1324,9 +1308,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 _vocLL_skt (U+1059), _vocL_skt (U+1058), acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308) and 7 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 _vocLL_skt (U+1059) and _vocL_skt (U+1058) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -1423,21 +1405,21 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- ha_tlg
-
-	- great_nnya.clipped
-
-	- asatstem
+	- nbspace
 
 	- ttha.sub.alt
 
-	- nbspace
+	- asatstem
 
-	- _ai_khm
+	- medial_wa_ha_short
 
-	- medial_wa_ha_ovl_short 
+	- medial_wa_ha_ovl_short
 
-	- And medial_wa_ha_short
+	- great_nnya.clipped
+
+	- ha_tlg 
+
+	- And _ai_khm
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
@@ -1448,9 +1430,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 _vocLL_skt (U+1059), _vocL_skt (U+1058), acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308) and 7 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+	 _vocLL_skt (U+1059) and _vocL_skt (U+1058) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 

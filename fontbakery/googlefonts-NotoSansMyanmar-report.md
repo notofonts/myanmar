@@ -6,30 +6,24 @@ Fontbakery version: 0.8.9
 
 
 * 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoSansMyanmar/googlefonts/ttf', 'fonts/NotoSansMyanmar/googlefonts/variable-ttf'] [code: single-directory]
-</div></details><br></div></details><details><summary><b>[11] NotoSansMyanmar-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSansMyanmar-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyph names do not comply with naming conventions: greatNnya-mon
-
- A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not. [code: found-invalid-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* medial_ra_wa_ha
-	* medial_ra_wa_ha_tt.w2
-	* medial_ra_wa_ha.w3
-	* ca_shn
-	* medial_ra_wa_ha_tt
-	* medial_ra_wa_ha.w2
 	* jha_mon.sub
-	* dda.sub
 	* medial_ra_wa_ha.w2_5
-	* medial_ra_wa_ha_tt.w3 and 4 more.
+	* nya.sub
+	* medial_ra_wa_ha.w3
+	* medial_ra_wa_ha_tt
+	* dda.sub
+	* medial_ra_wa_ha_tt.w2
+	* medial_ra_wa_ha_tt.w3
+	* nya_khm
+	* medial_ra_wa_ha.w1_5 and 4 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -48,19 +42,19 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- tall_aa_ai.alt
+	- tall_aa_anusvara.alt
 
 	- _tall_aa.alt
 
-	- _tall_aa_asat.alt
+	- tall_aa_ai.alt
 
-	- tall_aa_anusvara.alt
+	- _tall_aa_asat.alt
 
 	- _aa_anusvara
 
-	- _aa_ai 
+	- uni00A0.1 
 
-	- And nbspace
+	- And _aa_ai
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -77,7 +71,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: commaturnedabovecomb	Contours detected: 2	Expected: 1
+	- Glyph name: uni0312	Contours detected: 2	Expected: 1
 
 	- Glyph name: quoteleft	Contours detected: 2	Expected: 1
 
@@ -89,7 +83,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: quotedblright	Contours detected: 4	Expected: 2 
 
-	- And 13 more.
+	- And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -98,13 +92,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
 	 _a_atn (U+109C), aa_shn (U+1083), e_shn (U+1084) and ue_wpk (U+1068) [code: spacing-mark-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -138,24 +125,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* And 6 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoSansMyanmar-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSansMyanmar-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyph names do not comply with naming conventions: greatNnya-mon
-
- A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not. [code: found-invalid-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* ca_shn
 	* jha_mon.sub
+	* nya.sub
 	* dda.sub
-	* nya.sub and nya_khm
+	* nya_khm and ca_shn
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -165,19 +146,19 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- tall_aa_ai.alt
+	- tall_aa_anusvara.alt
 
 	- _tall_aa.alt
 
-	- _tall_aa_asat.alt
+	- tall_aa_ai.alt
 
-	- tall_aa_anusvara.alt
+	- _tall_aa_asat.alt
 
 	- _aa_anusvara
 
-	- _aa_ai 
+	- uni00A0.1 
 
-	- And nbspace
+	- And _aa_ai
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -194,7 +175,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: commaturnedabovecomb	Contours detected: 2	Expected: 1
+	- Glyph name: uni0312	Contours detected: 2	Expected: 1
 
 	- Glyph name: quoteleft	Contours detected: 2	Expected: 1
 
@@ -206,7 +187,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: quotedblright	Contours detected: 4	Expected: 2 
 
-	- And 13 more.
+	- And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -215,13 +196,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
 	 _a_atn (U+109C), aa_shn (U+1083), e_shn (U+1084) and ue_wpk (U+1068) [code: spacing-mark-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -283,24 +257,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoSansMyanmar-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSansMyanmar-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyph names do not comply with naming conventions: greatNnya-mon
-
- A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not. [code: found-invalid-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* ca_shn
 	* jha_mon.sub
+	* nya.sub
 	* dda.sub
-	* nya.sub and nya_khm
+	* nya_khm and ca_shn
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -317,19 +285,19 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- tall_aa_ai.alt
+	- tall_aa_anusvara.alt
 
 	- _tall_aa.alt
 
-	- _tall_aa_asat.alt
+	- tall_aa_ai.alt
 
-	- tall_aa_anusvara.alt
+	- _tall_aa_asat.alt
 
 	- _aa_anusvara
 
-	- _aa_ai 
+	- uni00A0.1 
 
-	- And nbspace
+	- And _aa_ai
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -346,7 +314,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: commaturnedabovecomb	Contours detected: 2	Expected: 1
+	- Glyph name: uni0312	Contours detected: 2	Expected: 1
 
 	- Glyph name: quoteleft	Contours detected: 2	Expected: 1
 
@@ -358,7 +326,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: quotedblright	Contours detected: 4	Expected: 2 
 
-	- And 13 more.
+	- And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -367,13 +335,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
 	 _a_atn (U+109C), aa_shn (U+1083), e_shn (U+1084) and ue_wpk (U+1068) [code: spacing-mark-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -405,23 +366,17 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* Wgrave (U+1E80): B<<283.5,211.5>-<290.0,175.0>-<293.0,151.0>>/B<<293.0,151.0>-<297.0,183.0>-<305.0,226.5>> = 14.25003269780357 
 
 	* And Wgrave (U+1E80): B<<506.5,475.5>-<502.0,500.0>-<501.0,516.0>>/B<<501.0,516.0>-<499.0,500.0>-<494.5,475.5>> = 10.701350723899111 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoSansMyanmar-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSansMyanmar-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyph names do not comply with naming conventions: greatNnya-mon
-
- A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not. [code: found-invalid-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* ca_shn
 	* jha_mon.sub
-	* dda.sub and nya_khm
+	* dda.sub
+	* nya_khm and ca_shn
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -438,19 +393,19 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- tall_aa_ai.alt
+	- tall_aa_anusvara.alt
 
 	- _tall_aa.alt
 
-	- _tall_aa_asat.alt
+	- tall_aa_ai.alt
 
-	- tall_aa_anusvara.alt
+	- _tall_aa_asat.alt
 
 	- _aa_anusvara
 
-	- _aa_ai 
+	- uni00A0.1 
 
-	- And nbspace
+	- And _aa_ai
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -467,7 +422,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: commaturnedabovecomb	Contours detected: 2	Expected: 1
+	- Glyph name: uni0312	Contours detected: 2	Expected: 1
 
 	- Glyph name: quoteleft	Contours detected: 2	Expected: 1
 
@@ -479,7 +434,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: quotedblright	Contours detected: 4	Expected: 2 
 
-	- And 13 more.
+	- And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -488,13 +443,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
 	 _a_atn (U+109C), aa_shn (U+1083), e_shn (U+1084) and ue_wpk (U+1068) [code: spacing-mark-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -506,23 +454,17 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
 	* cha_shw (U+AA7E): L<<231.0,-321.0>--<493.0,48.0>>/B<<493.0,48.0>-<461.0,20.0>-<419.0,5.0>> = 13.438290671227495 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSansMyanmar-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSansMyanmar-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyph names do not comply with naming conventions: greatNnya-mon
-
- A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not. [code: found-invalid-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* ca_shn
 	* jha_mon.sub
-	* dda.sub and nya_khm
+	* dda.sub
+	* nya_khm and ca_shn
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -539,19 +481,19 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- tall_aa_ai.alt
+	- tall_aa_anusvara.alt
 
 	- _tall_aa.alt
 
-	- _tall_aa_asat.alt
+	- tall_aa_ai.alt
 
-	- tall_aa_anusvara.alt
+	- _tall_aa_asat.alt
 
 	- _aa_anusvara
 
-	- _aa_ai 
+	- uni00A0.1 
 
-	- And nbspace
+	- And _aa_ai
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -568,7 +510,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: commaturnedabovecomb	Contours detected: 2	Expected: 1
+	- Glyph name: uni0312	Contours detected: 2	Expected: 1
 
 	- Glyph name: quoteleft	Contours detected: 2	Expected: 1
 
@@ -580,7 +522,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: quotedblright	Contours detected: 4	Expected: 2 
 
-	- And 13 more.
+	- And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -589,13 +531,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
 	 _a_atn (U+109C), aa_shn (U+1083), e_shn (U+1084) and ue_wpk (U+1068) [code: spacing-mark-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -613,24 +548,18 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
 	* one_tlg (U+A9F1): B<<259.0,944.5>-<233.0,938.0>-<214.0,926.0>>/L<<214.0,926.0>--<215.0,927.0>> = 12.724355685422363 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoSansMyanmar-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSansMyanmar-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyph names do not comply with naming conventions: greatNnya-mon
-
- A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not. [code: found-invalid-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* ca_shn
 	* jha_mon.sub
+	* nya.sub
 	* dda.sub
-	* nya.sub and nya_khm
+	* nya_khm and ca_shn
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -647,19 +576,19 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- tall_aa_ai.alt
+	- tall_aa_anusvara.alt
 
 	- _tall_aa.alt
 
-	- _tall_aa_asat.alt
+	- tall_aa_ai.alt
 
-	- tall_aa_anusvara.alt
+	- _tall_aa_asat.alt
 
 	- _aa_anusvara
 
-	- _aa_ai 
+	- uni00A0.1 
 
-	- And nbspace
+	- And _aa_ai
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -676,7 +605,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: commaturnedabovecomb	Contours detected: 2	Expected: 1
+	- Glyph name: uni0312	Contours detected: 2	Expected: 1
 
 	- Glyph name: quoteleft	Contours detected: 2	Expected: 1
 
@@ -688,7 +617,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: quotedblright	Contours detected: 4	Expected: 2 
 
-	- And 13 more.
+	- And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -697,13 +626,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
 	 _a_atn (U+109C), aa_shn (U+1083), e_shn (U+1084) and ue_wpk (U+1068) [code: spacing-mark-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -715,16 +637,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
 	* nna_shn (U+A9E3): L<<606.0,254.0>--<606.0,254.0>> -> L<<606.0,254.0>--<709.0,254.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[10] NotoSansMyanmar-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoSansMyanmar-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyph names do not comply with naming conventions: greatNnya-mon
-
- A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not. [code: found-invalid-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
 
 
@@ -750,6 +666,28 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </style>
 
 <h4>qa/shaping_tests/myanmar.json: Expected and actual shaping not matching</h4>
+
+
+</div>
+<div class="shaping">
+
+<li>Shaping did not match: <span class="tf">ည္ည</span> (googlefonts/noto-fonts#1926)</li>
+
+
+<pre>{'language': 'mnw'}</pre>
+
+
+
+<pre>Expected: None</pre>
+
+
+
+<pre>Got     : greatNnyaMon=0+1559</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1559 3184" transform="matrix(1 0 0 -1 0 0)">
+<path d="M333.0,-10.0Q291.0,-10.0 252.0,3.0Q213.0,16.0 180.0,39.0L180.0,-269.0Q180.0,-329.0 207.0,-361.5Q234.0,-394.0 292.0,-394.0L1301.0,-394.0Q1360.0,-394.0 1386.5,-361.5Q1413.0,-329.0 1413.0,-269.0L1413.0,-253.0L1502.0,-253.0L1502.0,-256.0Q1502.0,-467.0 1297.0,-467.0L296.0,-467.0Q91.0,-467.0 91.0,-253.0L91.0,153.0L161.0,189.0Q187.0,127.0 234.5,95.5Q282.0,64.0 335.0,64.0Q389.0,64.0 429.0,90.5Q469.0,117.0 491.0,164.0Q513.0,211.0 513.0,270.0Q513.0,360.0 466.5,416.0Q420.0,472.0 335.0,472.0Q282.0,472.0 234.5,440.5Q187.0,409.0 161.0,347.0L91.0,383.0Q109.0,432.0 145.5,468.5Q182.0,505.0 231.0,525.5Q280.0,546.0 333.0,546.0Q418.0,546.0 478.5,509.5Q539.0,473.0 571.5,410.5Q604.0,348.0 604.0,269.0Q604.0,229.0 596.0,193.0Q627.0,129.0 672.0,96.5Q717.0,64.0 784.0,64.0Q867.0,64.0 915.0,121.0Q963.0,178.0 963.0,270.0Q963.0,363.0 914.5,417.5Q866.0,472.0 786.0,472.0Q732.0,472.0 694.0,454.0L662.0,520.0Q690.0,534.0 722.5,540.0Q755.0,546.0 800.0,546.0Q874.0,546.0 931.5,512.0Q989.0,478.0 1021.5,415.5Q1054.0,353.0 1054.0,268.0Q1054.0,230.0 1046.0,194.0Q1076.0,130.0 1121.0,97.0Q1166.0,64.0 1234.0,64.0Q1317.0,64.0 1365.0,121.0Q1413.0,178.0 1413.0,270.0Q1413.0,363.0 1364.5,417.5Q1316.0,472.0 1236.0,472.0Q1182.0,472.0 1144.0,454.0L1112.0,520.0Q1140.0,534.0 1172.5,540.0Q1205.0,546.0 1250.0,546.0Q1324.0,546.0 1381.5,512.0Q1439.0,478.0 1471.5,415.5Q1504.0,353.0 1504.0,268.0Q1504.0,188.0 1470.0,125.0Q1436.0,62.0 1375.5,26.0Q1315.0,-10.0 1233.0,-10.0Q1164.0,-10.0 1105.5,19.0Q1047.0,48.0 1009.0,106.0Q974.0,53.0 916.0,21.5Q858.0,-10.0 783.0,-10.0Q715.0,-10.0 657.0,18.5Q599.0,47.0 561.0,104.0Q527.0,51.0 469.5,20.5Q412.0,-10.0 333.0,-10.0Z"  transform="translate(0, 1360)"/>
+</svg>
 
 
 </div>
@@ -795,10 +733,10 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* ca_shn
 	* jha_mon.sub
+	* nya.sub
 	* dda.sub
-	* nya.sub and nya_khm
+	* nya_khm and ca_shn
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -808,19 +746,19 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- tall_aa_ai.alt
+	- tall_aa_anusvara.alt
 
 	- _tall_aa.alt
 
-	- _tall_aa_asat.alt
+	- tall_aa_ai.alt
 
-	- tall_aa_anusvara.alt
+	- _tall_aa_asat.alt
 
 	- _aa_anusvara
 
-	- _aa_ai 
+	- uni00A0.1 
 
-	- And nbspace
+	- And _aa_ai
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -837,7 +775,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: commaturnedabovecomb	Contours detected: 2	Expected: 1
+	- Glyph name: uni0312	Contours detected: 2	Expected: 1
 
 	- Glyph name: quoteleft	Contours detected: 2	Expected: 1
 
@@ -849,7 +787,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: quotedblright	Contours detected: 4	Expected: 2 
 
-	- And 13 more.
+	- And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -858,36 +796,23 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
 	 _a_atn (U+109C), aa_shn (U+1083), e_shn (U+1084) and ue_wpk (U+1068) [code: spacing-mark-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
 * ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
 	 U+1068, U+1083, U+1084 and U+109C [code: non-mark-chars]
-</div></details><br></div></details><details><summary><b>[12] NotoSansMyanmar-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSansMyanmar-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyph names do not comply with naming conventions: greatNnya-mon
-
- A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not. [code: found-invalid-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* ca_shn
 	* jha_mon.sub
+	* nya.sub
 	* dda.sub
-	* nya.sub and nya_khm
+	* nya_khm and ca_shn
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -904,19 +829,19 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- tall_aa_ai.alt
+	- tall_aa_anusvara.alt
 
 	- _tall_aa.alt
 
-	- _tall_aa_asat.alt
+	- tall_aa_ai.alt
 
-	- tall_aa_anusvara.alt
+	- _tall_aa_asat.alt
 
 	- _aa_anusvara
 
-	- _aa_ai 
+	- uni00A0.1 
 
-	- And nbspace
+	- And _aa_ai
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -933,7 +858,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: commaturnedabovecomb	Contours detected: 2	Expected: 1
+	- Glyph name: uni0312	Contours detected: 2	Expected: 1
 
 	- Glyph name: quoteleft	Contours detected: 2	Expected: 1
 
@@ -945,7 +870,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: quotedblright	Contours detected: 4	Expected: 2 
 
-	- And 13 more.
+	- And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -954,13 +879,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
 	 _a_atn (U+109C), aa_shn (U+1083), e_shn (U+1084) and ue_wpk (U+1068) [code: spacing-mark-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -1018,23 +936,17 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* Wgrave (U+1E80): B<<257.0,182.5>-<263.0,150.0>-<266.0,126.0>>/B<<266.0,126.0>-<269.0,151.0>-<275.0,184.0>> = 13.967789761532726 
 
 	* And Wgrave (U+1E80): B<<678.0,182.0>-<684.0,150.0>-<687.0,126.0>>/B<<687.0,126.0>-<690.0,151.0>-<695.5,183.0>> = 13.967789761532726 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[13] NotoSansMyanmar-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] NotoSansMyanmar-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyph names do not comply with naming conventions: greatNnya-mon
-
- A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not. [code: found-invalid-names]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* ca_shn
 	* jha_mon.sub
-	* dda.sub and nya_khm
+	* dda.sub
+	* nya_khm and ca_shn
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -1051,19 +963,19 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- tall_aa_ai.alt
+	- tall_aa_anusvara.alt
 
 	- _tall_aa.alt
 
-	- _tall_aa_asat.alt
+	- tall_aa_ai.alt
 
-	- tall_aa_anusvara.alt
+	- _tall_aa_asat.alt
 
 	- _aa_anusvara
 
-	- _aa_ai 
+	- uni00A0.1 
 
-	- And nbspace
+	- And _aa_ai
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1080,7 +992,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-	- Glyph name: commaturnedabovecomb	Contours detected: 2	Expected: 1
+	- Glyph name: uni0312	Contours detected: 2	Expected: 1
 
 	- Glyph name: quoteleft	Contours detected: 2	Expected: 1
 
@@ -1092,7 +1004,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: quotedblright	Contours detected: 4	Expected: 2 
 
-	- And 13 more.
+	- And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -1101,13 +1013,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
 	 _a_atn (U+109C), aa_shn (U+1083), e_shn (U+1084) and ue_wpk (U+1068) [code: spacing-mark-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
@@ -1118,9 +1023,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* au (U+102A): L<<1788.0,176.0>--<1788.0,176.0>> -> L<<1788.0,176.0>--<1788.0,176.0>> 
+	* o_m (U+1029): L<<1180.0,176.0>--<1180.0,176.0>> -> L<<1180.0,176.0>--<1180.0,176.0>> 
 
-	* And o_m (U+1029): L<<1180.0,176.0>--<1180.0,176.0>> -> L<<1180.0,176.0>--<1180.0,176.0>> [code: found-colinear-vectors]
+	* And uniA737 (U+102A): L<<1788.0,176.0>--<1788.0,176.0>> -> L<<1788.0,176.0>--<1788.0,176.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -1143,16 +1048,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* exclamdown (U+00A1): L<<122.0,354.0>--<124.0,-186.0>> 
 
 	* And exclamdown (U+00A1): L<<96.0,-186.0>--<98.0,354.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[8] NotoSansMyanmar[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[5] NotoSansMyanmar[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyph names do not comply with naming conventions: greatNnya-mon
-
- A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not. [code: found-invalid-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
 
 
@@ -1166,44 +1065,32 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- tall_aa_ai.alt
+	- tall_aa_anusvara.alt
 
 	- _tall_aa.alt
 
-	- _tall_aa_asat.alt
+	- tall_aa_ai.alt
 
-	- tall_aa_anusvara.alt
+	- _tall_aa_asat.alt
 
 	- _aa_anusvara
 
-	- _aa_ai 
+	- uni00A0.1 
 
-	- And nbspace
+	- And _aa_ai
  [code: unreachable-glyphs]
-</div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
-
-
-* ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-	 _a_atn (U+109C), aa_shn (U+1083), e_shn (U+1084) and ue_wpk (U+1068) [code: spacing-mark-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
-	 U+1068, U+1083, U+1084 and U+109C [code: non-mark-chars]
+	 uniFE00 (U+FE00) [code: mark-chars]
 </div></details><br></div></details>
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 10 | 13 | 88 | 1110 | 62 | 932 | 0 |
-| 0% | 1% | 4% | 50% | 3% | 42% | 0% |
+| 10 | 3 | 77 | 1110 | 62 | 953 | 0 |
+| 0% | 0% | 3% | 50% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
