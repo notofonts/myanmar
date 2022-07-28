@@ -14,16 +14,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* kha
-	* ka_shn.sub
-	* sha_shw_medial_wa
-	* one_m
+	* medial_ha_u_dot
 	* vocR_skt
-	* gha_tlg
-	* vocL_skt
-	* u_m
-	* nine_shn
-	* cha_shw and 63 more.
+	* ja_tlg
+	* sha_skt
+	* nya.narrow
+	* ca_shn.sub
+	* fa_rpg
+	* ba_shn
+	* jha_shn
+	* ssa_skt and 63 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -42,21 +42,21 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- nbspace
-
 	- ttha.sub.alt
+
+	- _ai_khm
 
 	- asatstem
 
-	- medial_wa_ha_short
-
 	- medial_wa_ha_ovl_short
+
+	- medial_wa_ha_short
 
 	- great_nnya.clipped
 
-	- ha_tlg 
+	- nbspace 
 
-	- And _ai_khm
+	- And ha_tlg
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -170,16 +170,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* _aa_anusvara
-	* pha
-	* ra.sub
-	* asat
-	* dda.littletail
-	* ra_mark_ai_skt
-	* jha_shn.sub
-	* medial_ra_tt.w2_5
-	* bba_mon
-	* lla.notail and 652 more.
+	* medial_ra_wa_ha_ovl.w2_2
+	* vocRR_skt
+	* great_sa
+	* medial_ra_wa_ha_ovl.w3
+	* cha_khm_dot
+	* zero_tlg
+	* nya_khm
+	* dda_ma
+	* ghwa_epk
+	* asat and 652 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -191,21 +191,21 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- nbspace
-
 	- ttha.sub.alt
+
+	- _ai_khm
 
 	- asatstem
 
-	- medial_wa_ha_short
-
 	- medial_wa_ha_ovl_short
+
+	- medial_wa_ha_short
 
 	- great_nnya.clipped
 
-	- ha_tlg 
+	- nbspace 
 
-	- And _ai_khm
+	- And ha_tlg
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -299,16 +299,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* dda.littletail
-	* medial_ra_tt.w2_5
-	* lla.notail
-	* a_m
-	* medial_ra_u_tt.w2_2
-	* medial_ra_u_dot_tt.w2
-	* medial_ra_u_dot_tt.w2_5
-	* exclam_shn
-	* five_tlg
-	* medial_ra_wa_ovl_tt.w2_2 and 313 more.
+	* medial_ra_wa_ha_ovl.w2_2
+	* great_sa
+	* medial_ra_wa_ha_ovl.w3
+	* zero_tlg
+	* nya_khm
+	* dda_ma
+	* ghwa_epk
+	* nna
+	* ha_khm
+	* tta_ttha and 313 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -327,21 +327,21 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- nbspace
-
 	- ttha.sub.alt
+
+	- _ai_khm
 
 	- asatstem
 
-	- medial_wa_ha_short
-
 	- medial_wa_ha_ovl_short
+
+	- medial_wa_ha_short
 
 	- great_nnya.clipped
 
-	- ha_tlg 
+	- nbspace 
 
-	- And _ai_khm
+	- And ha_tlg
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -459,16 +459,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* _aa_anusvara
-	* pha
-	* ra.sub
-	* dda.littletail
-	* jha_shn.sub
-	* medial_ra_tt.w2_5
-	* bba_mon
-	* lla.notail
-	* a_m
-	* medial_ra_u_tt.w2_2 and 541 more.
+	* medial_ra_wa_ha_ovl.w2_2
+	* vocRR_skt
+	* great_sa
+	* medial_ra_wa_ha_ovl.w3
+	* cha_khm_dot
+	* zero_tlg
+	* nya_khm
+	* dda_ma
+	* ghwa_epk
+	* nna and 541 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -487,21 +487,21 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- nbspace
-
 	- ttha.sub.alt
+
+	- _ai_khm
 
 	- asatstem
 
-	- medial_wa_ha_short
-
 	- medial_wa_ha_ovl_short
+
+	- medial_wa_ha_short
 
 	- great_nnya.clipped
 
-	- ha_tlg 
+	- nbspace 
 
-	- And _ai_khm
+	- And ha_tlg
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -611,16 +611,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* _aa_anusvara
-	* pha
-	* ra.sub
-	* asat
-	* dda.littletail
-	* ra_mark_ai_skt
-	* jha_shn.sub
-	* medial_ra_tt.w2_5
-	* bba_mon
-	* lla.notail and 691 more.
+	* medial_ra_wa_ha_ovl.w2_2
+	* vocRR_skt
+	* great_sa
+	* medial_ra_wa_ha_ovl.w3
+	* cha_khm_dot
+	* zero_tlg
+	* nya_khm
+	* dda_ma
+	* ghwa_epk
+	* asat and 691 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -639,21 +639,21 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- nbspace
-
 	- ttha.sub.alt
+
+	- _ai_khm
 
 	- asatstem
 
-	- medial_wa_ha_short
-
 	- medial_wa_ha_ovl_short
+
+	- medial_wa_ha_short
 
 	- great_nnya.clipped
 
-	- ha_tlg 
+	- nbspace 
 
-	- And _ai_khm
+	- And ha_tlg
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -751,16 +751,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* _aa_anusvara
-	* pha
-	* ra.sub
-	* asat
-	* dda.littletail
-	* ra_mark_ai_skt
-	* jha_shn.sub
-	* medial_ra_tt.w2_5
-	* bba_mon
-	* lla.notail and 692 more.
+	* medial_ra_wa_ha_ovl.w2_2
+	* vocRR_skt
+	* great_sa
+	* medial_ra_wa_ha_ovl.w3
+	* cha_khm_dot
+	* zero_tlg
+	* nya_khm
+	* dda_ma
+	* ghwa_epk
+	* asat and 692 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -779,21 +779,21 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- nbspace
-
 	- ttha.sub.alt
+
+	- _ai_khm
 
 	- asatstem
 
-	- medial_wa_ha_short
-
 	- medial_wa_ha_ovl_short
+
+	- medial_wa_ha_short
 
 	- great_nnya.clipped
 
-	- ha_tlg 
+	- nbspace 
 
-	- And _ai_khm
+	- And ha_tlg
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -913,16 +913,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* kha
-	* ka_shn.sub
-	* sha_shw_medial_wa
-	* one_m
+	* medial_ha_u_dot
 	* vocR_skt
-	* gha_tlg
-	* vocL_skt
-	* u_m
-	* nine_shn
-	* cha_shw and 56 more.
+	* ja_tlg
+	* nya.narrow
+	* ca_shn.sub
+	* fa_rpg
+	* ba_shn
+	* ssa_skt
+	* four_m
+	* sha_skt.sub and 56 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -934,21 +934,21 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- nbspace
-
 	- ttha.sub.alt
+
+	- _ai_khm
 
 	- asatstem
 
-	- medial_wa_ha_short
-
 	- medial_wa_ha_ovl_short
+
+	- medial_wa_ha_short
 
 	- great_nnya.clipped
 
-	- ha_tlg 
+	- nbspace 
 
-	- And _ai_khm
+	- And ha_tlg
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1066,16 +1066,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* _aa_anusvara
-	* pha
-	* ra.sub
-	* asat
-	* dda.littletail
-	* ra_mark_ai_skt
-	* jha_shn.sub
-	* medial_ra_tt.w2_5
-	* bba_mon
-	* lla.notail and 653 more.
+	* medial_ra_wa_ha_ovl.w2_2
+	* vocRR_skt
+	* great_sa
+	* medial_ra_wa_ha_ovl.w3
+	* cha_khm_dot
+	* zero_tlg
+	* nya_khm
+	* dda_ma
+	* ghwa_epk
+	* asat and 653 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1094,21 +1094,21 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- nbspace
-
 	- ttha.sub.alt
+
+	- _ai_khm
 
 	- asatstem
 
-	- medial_wa_ha_short
-
 	- medial_wa_ha_ovl_short
+
+	- medial_wa_ha_short
 
 	- great_nnya.clipped
 
-	- ha_tlg 
+	- nbspace 
 
-	- And _ai_khm
+	- And ha_tlg
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1226,16 +1226,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* kha
-	* ka_shn.sub
-	* sha_shw_medial_wa
-	* one_m
+	* medial_ha_u_dot
 	* vocR_skt
-	* gha_tlg
-	* vocL_skt
-	* u_m
-	* nine_shn
-	* cha_shw and 63 more.
+	* ja_tlg
+	* sha_skt
+	* nya.narrow
+	* ca_shn.sub
+	* fa_rpg
+	* ba_shn
+	* jha_shn
+	* ssa_skt and 63 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1254,19 +1254,19 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- nbspace
+	- _ai_khm
 
 	- asatstem
 
-	- medial_wa_ha_short
-
 	- medial_wa_ha_ovl_short
+
+	- medial_wa_ha_short
 
 	- great_nnya.clipped
 
-	- ha_tlg 
+	- nbspace 
 
-	- And _ai_khm
+	- And ha_tlg
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1405,21 +1405,21 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- nbspace
-
 	- ttha.sub.alt
+
+	- _ai_khm
 
 	- asatstem
 
-	- medial_wa_ha_short
-
 	- medial_wa_ha_ovl_short
+
+	- medial_wa_ha_short
 
 	- great_nnya.clipped
 
-	- ha_tlg 
+	- nbspace 
 
-	- And _ai_khm
+	- And ha_tlg
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 

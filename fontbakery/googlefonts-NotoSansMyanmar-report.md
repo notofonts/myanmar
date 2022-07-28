@@ -14,16 +14,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* jha_mon.sub
 	* medial_ra_wa_ha.w2_5
-	* nya.sub
+	* medial_ra_wa_ha_tt.w1_5
+	* nya_khm
+	* medial_ra_wa_ha_tt.w2
+	* medial_ra_wa_ha.w1_5
+	* ca_shn
 	* medial_ra_wa_ha.w3
 	* medial_ra_wa_ha_tt
 	* dda.sub
-	* medial_ra_wa_ha_tt.w2
-	* medial_ra_wa_ha_tt.w3
-	* nya_khm
-	* medial_ra_wa_ha.w1_5 and 4 more.
+	* nya.sub and 4 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -42,19 +42,19 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- _tall_aa_asat.alt
+
 	- tall_aa_anusvara.alt
 
-	- _tall_aa.alt
-
-	- tall_aa_ai.alt
-
-	- _tall_aa_asat.alt
+	- _aa_ai
 
 	- _aa_anusvara
 
+	- tall_aa_ai.alt
+
 	- uni00A0.1 
 
-	- And _aa_ai
+	- And _tall_aa.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -133,10 +133,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* jha_mon.sub
-	* nya.sub
+	* nya_khm
+	* ca_shn
 	* dda.sub
-	* nya_khm and ca_shn
+	* nya.sub and jha_mon.sub
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -146,19 +146,19 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- _tall_aa_asat.alt
+
 	- tall_aa_anusvara.alt
 
-	- _tall_aa.alt
-
-	- tall_aa_ai.alt
-
-	- _tall_aa_asat.alt
+	- _aa_ai
 
 	- _aa_anusvara
 
+	- tall_aa_ai.alt
+
 	- uni00A0.1 
 
-	- And _aa_ai
+	- And _tall_aa.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -265,10 +265,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* jha_mon.sub
-	* nya.sub
+	* nya_khm
+	* ca_shn
 	* dda.sub
-	* nya_khm and ca_shn
+	* nya.sub and jha_mon.sub
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -285,19 +285,19 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- _tall_aa_asat.alt
+
 	- tall_aa_anusvara.alt
 
-	- _tall_aa.alt
-
-	- tall_aa_ai.alt
-
-	- _tall_aa_asat.alt
+	- _aa_ai
 
 	- _aa_anusvara
 
+	- tall_aa_ai.alt
+
 	- uni00A0.1 
 
-	- And _aa_ai
+	- And _tall_aa.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -374,9 +374,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* jha_mon.sub
-	* dda.sub
-	* nya_khm and ca_shn
+	* nya_khm
+	* ca_shn
+	* dda.sub and jha_mon.sub
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -393,19 +393,19 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- _tall_aa_asat.alt
+
 	- tall_aa_anusvara.alt
 
-	- _tall_aa.alt
-
-	- tall_aa_ai.alt
-
-	- _tall_aa_asat.alt
+	- _aa_ai
 
 	- _aa_anusvara
 
+	- tall_aa_ai.alt
+
 	- uni00A0.1 
 
-	- And _aa_ai
+	- And _tall_aa.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -462,9 +462,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* jha_mon.sub
-	* dda.sub
-	* nya_khm and ca_shn
+	* nya_khm
+	* ca_shn
+	* dda.sub and jha_mon.sub
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -481,19 +481,19 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- _tall_aa_asat.alt
+
 	- tall_aa_anusvara.alt
 
-	- _tall_aa.alt
-
-	- tall_aa_ai.alt
-
-	- _tall_aa_asat.alt
+	- _aa_ai
 
 	- _aa_anusvara
 
+	- tall_aa_ai.alt
+
 	- uni00A0.1 
 
-	- And _aa_ai
+	- And _tall_aa.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -556,10 +556,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* jha_mon.sub
-	* nya.sub
+	* nya_khm
+	* ca_shn
 	* dda.sub
-	* nya_khm and ca_shn
+	* nya.sub and jha_mon.sub
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -576,19 +576,19 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- _tall_aa_asat.alt
+
 	- tall_aa_anusvara.alt
 
-	- _tall_aa.alt
-
-	- tall_aa_ai.alt
-
-	- _tall_aa_asat.alt
+	- _aa_ai
 
 	- _aa_anusvara
 
+	- tall_aa_ai.alt
+
 	- uni00A0.1 
 
-	- And _aa_ai
+	- And _tall_aa.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -733,10 +733,10 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* jha_mon.sub
-	* nya.sub
+	* nya_khm
+	* ca_shn
 	* dda.sub
-	* nya_khm and ca_shn
+	* nya.sub and jha_mon.sub
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -746,19 +746,19 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- _tall_aa_asat.alt
+
 	- tall_aa_anusvara.alt
 
-	- _tall_aa.alt
-
-	- tall_aa_ai.alt
-
-	- _tall_aa_asat.alt
+	- _aa_ai
 
 	- _aa_anusvara
 
+	- tall_aa_ai.alt
+
 	- uni00A0.1 
 
-	- And _aa_ai
+	- And _tall_aa.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -809,10 +809,10 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* jha_mon.sub
-	* nya.sub
+	* nya_khm
+	* ca_shn
 	* dda.sub
-	* nya_khm and ca_shn
+	* nya.sub and jha_mon.sub
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -829,19 +829,19 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- _tall_aa_asat.alt
+
 	- tall_aa_anusvara.alt
 
-	- _tall_aa.alt
-
-	- tall_aa_ai.alt
-
-	- _tall_aa_asat.alt
+	- _aa_ai
 
 	- _aa_anusvara
 
+	- tall_aa_ai.alt
+
 	- uni00A0.1 
 
-	- And _aa_ai
+	- And _tall_aa.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -944,9 +944,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* jha_mon.sub
-	* dda.sub
-	* nya_khm and ca_shn
+	* nya_khm
+	* ca_shn
+	* dda.sub and jha_mon.sub
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
 
 
@@ -963,19 +963,19 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- _tall_aa_asat.alt
+
 	- tall_aa_anusvara.alt
 
-	- _tall_aa.alt
-
-	- tall_aa_ai.alt
-
-	- _tall_aa_asat.alt
+	- _aa_ai
 
 	- _aa_anusvara
 
+	- tall_aa_ai.alt
+
 	- uni00A0.1 
 
-	- And _aa_ai
+	- And _tall_aa.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1065,19 +1065,19 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- _tall_aa_asat.alt
+
 	- tall_aa_anusvara.alt
 
-	- _tall_aa.alt
-
-	- tall_aa_ai.alt
-
-	- _tall_aa_asat.alt
+	- _aa_ai
 
 	- _aa_anusvara
 
+	- tall_aa_ai.alt
+
 	- uni00A0.1 
 
-	- And _aa_ai
+	- And _tall_aa.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 

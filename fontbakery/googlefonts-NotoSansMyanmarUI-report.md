@@ -48,15 +48,15 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- _tall_aa.alt
+	- nbspace
 
 	- _tall_aa_asat.alt
 
-	- nbspace
+	- tall_aa_ai.alt
 
-	- tall_aa_anusvara.alt 
+	- _tall_aa.alt 
 
-	- And tall_aa_ai.alt
+	- And tall_aa_anusvara.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -165,15 +165,15 @@ But instead we have got:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- _tall_aa.alt
+	- nbspace
 
 	- _tall_aa_asat.alt
 
-	- nbspace
+	- tall_aa_ai.alt
 
-	- tall_aa_anusvara.alt 
+	- _tall_aa.alt 
 
-	- And tall_aa_ai.alt
+	- And tall_aa_anusvara.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -283,15 +283,15 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- _tall_aa.alt
+	- nbspace
 
 	- _tall_aa_asat.alt
 
-	- nbspace
+	- tall_aa_ai.alt
 
-	- tall_aa_anusvara.alt 
+	- _tall_aa.alt 
 
-	- And tall_aa_ai.alt
+	- And tall_aa_anusvara.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -405,15 +405,15 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- _tall_aa.alt
+	- nbspace
 
 	- _tall_aa_asat.alt
 
-	- nbspace
+	- tall_aa_ai.alt
 
-	- tall_aa_anusvara.alt 
+	- _tall_aa.alt 
 
-	- And tall_aa_ai.alt
+	- And tall_aa_anusvara.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -509,15 +509,15 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- _tall_aa.alt
+	- nbspace
 
 	- _tall_aa_asat.alt
 
-	- nbspace
+	- tall_aa_ai.alt
 
-	- tall_aa_anusvara.alt 
+	- _tall_aa.alt 
 
-	- And tall_aa_ai.alt
+	- And tall_aa_anusvara.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -599,15 +599,15 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- _tall_aa.alt
+	- nbspace
 
 	- _tall_aa_asat.alt
 
-	- nbspace
+	- tall_aa_ai.alt
 
-	- tall_aa_anusvara.alt 
+	- _tall_aa.alt 
 
-	- And tall_aa_ai.alt
+	- And tall_aa_anusvara.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -692,15 +692,15 @@ But instead we have got:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- _tall_aa.alt
+	- nbspace
 
 	- _tall_aa_asat.alt
 
-	- nbspace
+	- tall_aa_ai.alt
 
-	- tall_aa_anusvara.alt 
+	- _tall_aa.alt 
 
-	- And tall_aa_ai.alt
+	- And tall_aa_anusvara.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -782,15 +782,15 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- _tall_aa.alt
+	- nbspace
 
 	- _tall_aa_asat.alt
 
-	- nbspace
+	- tall_aa_ai.alt
 
-	- tall_aa_anusvara.alt 
+	- _tall_aa.alt 
 
-	- And tall_aa_ai.alt
+	- And tall_aa_anusvara.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -896,15 +896,15 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- _tall_aa.alt
+	- nbspace
 
 	- _tall_aa_asat.alt
 
-	- nbspace
+	- tall_aa_ai.alt
 
-	- tall_aa_anusvara.alt 
+	- _tall_aa.alt 
 
-	- And tall_aa_ai.alt
+	- And tall_aa_anusvara.alt
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1005,15 +1005,15 @@ But instead we have got:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- uni00A0.1
+	- _tall_aa_asat.alt
+
+	- tall_aa_ai.alt
 
 	- _tall_aa.alt
 
-	- _tall_aa_asat.alt
-
 	- tall_aa_anusvara.alt 
 
-	- And tall_aa_ai.alt
+	- And uni00A0.1
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
